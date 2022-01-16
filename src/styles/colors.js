@@ -6,6 +6,6 @@ const allColors = {
         '#FF3333',
         '#DA33FF'
     ]
-}
+};
 
 export default allColors;

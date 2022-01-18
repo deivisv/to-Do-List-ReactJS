@@ -1,0 +1,26 @@
+:root{
+    --green-bg-color: #3BB100;
+    --red-bg-color: #FF0000; 
+}
+
+.greenColor{
+    border: 2px solid var(--green-bg-color);
+    background: transparent;
+    color: var(--green-bg-color);
+}
+
+.greenColor:hover{
+    background-color: var(--green-bg-color) !important;
+    color: #fff;
+}
+
+.redColor{
+    border: 2px solid var(--red-bg-color);
+    background: transparent;
+    color: var(--red-bg-color);
+}
+
+.redColor:hover{
+    background-color: var(--red-bg-color) !important;
+    color: #fff;
+}

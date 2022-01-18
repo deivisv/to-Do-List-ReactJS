@@ -1,16 +1,16 @@
 import React from 'react';
-import styledComponents from 'styled-components';
+import styled from 'styled-components';
 
-const LabelStyles = styledComponents.label`
+const LabelStyles = styled.label`
     display: inline-block;
     width: 30px;
     height: 30px;
     margin-top: .5rem; 
-    background-color: ${({ color }) => color};
+    background: ${({ color }) => color};
     border-radius: 5px;
 `
 
-const InputRadio = styledComponents.input`
+const InputRadio = styled.input`
     display: none;
     
     &:checked + label{
